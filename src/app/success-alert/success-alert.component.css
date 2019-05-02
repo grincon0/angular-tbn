@@ -1,0 +1,23 @@
+.success-box, .warning-box{
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    border-radius: 5px;
+}
+
+.success-box{
+    background-color: rgb(5, 114, 14);
+}
+
+
+.success-box p, .warning-box p {
+    color: #f3f3f3;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}

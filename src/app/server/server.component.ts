@@ -10,4 +10,8 @@ import { Component } from '@angular/core';
     templateUrl: './server.component.html'
 })
 
-export class ServerComponent { }
+export class ServerComponent {
+    serverID = 10;
+    //example of declaring type
+    serverStatus: string = 'offline'
+ }
