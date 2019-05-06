@@ -14,4 +14,8 @@ export class ServerComponent {
     serverID = 10;
     //example of declaring type
     serverStatus: string = 'offline'
+
+    getServerStatus(){
+        return this.serverStatus;
+    }
  }
